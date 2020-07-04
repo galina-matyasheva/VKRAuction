@@ -19,7 +19,7 @@
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.30",
     "jquery": "^3.1.1",
-    "mongoose": "^4.7.6",
+    "mongoose": "^5.9.21",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
