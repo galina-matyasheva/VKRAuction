@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.indent {
+margin-top: 100px;
+}
+
+.container h2{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card {
+  width: 250px;
+  padding: 5px;
+  margin-top: 25px;
+  border-radius: 3px;
+  transition: box-shadow .3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, .15);
+}
+
+.card.marked {
+  border: 2px solid crimson;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+}
+
+div .card-deck{
+  margin: 0;
+}
+.home-list-element{
+  display: inline-flex;
+  width: 25%;
+}
+ .home-list {
+   margin: 0;
+   padding: 0;
+ }
+
+ .container.container{
+   padding: 0;
+ }
+
+ nav {
+   width: 1142px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+.apply {
+  margin-top: 25px;
+}
+.detail-information {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fefefe;
+  padding: 20px;
+  margin:20px 0;
+  box-shadow: 0px 1px 5px 1px #eaeaea; ;
+}
+
+.features {
+  font-size: 16px;
+  display: block;
+}
+
+.h3-create-auction {
+  text-align: center;
+  margin-top: 50px;
+}
+.star-color {
+  color: red;
+}
+
+.btn-to {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.footer-copyright{
+  font-family: Montsserat;
+  font-size: 20px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.copyright{
+  color: #f38181;
+  font-size: 20px;
+}
+.sign-content{
+  position: absolute;
+  top:50px;
+  left: 145px;
+  width: 300px;
+}
+
+.welcome-in {
+  margin-top: 20px;
+}
+.firebaseui-container{
+  width: 280px;
+}
