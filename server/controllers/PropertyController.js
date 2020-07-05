@@ -19,6 +19,9 @@ createAuction = (req, res) => {
     if (!auction) {
         return res.status(400).json({ success: false, error: err })
     }
+    const auctionService = new AuctionService();
+
+    auctionService.createAuction(auction);
 
     auction
         .save()
@@ -35,9 +38,6 @@ createAuction = (req, res) => {
                 message: 'auction not created!',
             })
         })
-    const auctionService = new AuctionService();
-
-    auctionService.createAuction(auction);
 
     // SmtpService.sendEmail('аукцион недвижимости','поздравляем, вы успешно создали ваш аукцион в нашей системе','galina.kvasova14@gmail.com','dsnou2806@gmail.com');
 }
