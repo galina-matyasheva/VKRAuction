@@ -11,6 +11,6 @@
     "multer": "^1.4.2",
     "truffle-solidity-loader": "0.0.8",
     "web3": "^0.17.0-alpha",
-    "nodemailer": "^6.4.10"
+    "nodemailer": "^6.4.16"
   }
 }
